@@ -1245,6 +1245,8 @@ end
 
   -- Azuregos
 	AtlasLoot_TableNames["WorldBossesClassic"] = { BabbleBoss["Azuregos"], "AtlasLootOriginalWoW" };
+  -- Lord Kazzak
+	AtlasLoot_TableNames["WorldBossesClassic_2"] = { BabbleBoss["Lord Kazzak"], "AtlasLootOriginalWoW" };
   -- Kazzak/Doomwalker
 	AtlasLoot_TableNames["WorldBossesBC"] = { BabbleBoss["Doom Lord Kazzak"].." / "..BabbleBoss["Doomwalker"], "AtlasLootBurningCrusade" };
   -- Emrald Dragons

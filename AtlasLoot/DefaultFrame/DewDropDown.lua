@@ -848,6 +848,7 @@ AtlasLoot_DewDropDown_SubTables = {
 	},
 	["WorldBosses"] = {
 		{ "", "WorldBossesClassic" },
+		{ "", "WorldBossesClassic_2" },
 		{ "", "WorldBossesBC"},
 		{ "", "DEmeriss" },
 		{ "", "DLethon"},

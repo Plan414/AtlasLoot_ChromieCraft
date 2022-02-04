@@ -65,6 +65,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --- World Bosses
 ---- Dragons of Nightmare
 ---- Azuregos
+---- Lord Kazzak
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -6242,4 +6243,25 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 11, 19130, "", "=q4=Cold Snap", "=ds=#w12#", "", "11.89%"};
 		{ 16, 18704, "", "=q4=Mature Blue Dragon Sinew", "=ds=#m3# =q1=(#c2#)", "", "51.56%"};
 		{ 17, 18714, "", "=q4=Ancient Sinew Wrapped Lamina", "=q1=#m4#: =ds=#m14# #w19#"};
+	};
+	
+		-------------------
+		--- Lord Kazzak ---
+		-------------------
+	
+		AtlasLoot_Data["WorldBossesClassic_2"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Kazzak"], ""};
+        { 2, 19135, "", "=q4=Blacklight Bracer",             "=ds=#s8#", "", "11.01%" };
+        { 3, 19133, "", "=q4=Fel Infused Leggings",           "=ds=#s11#", "", "8.63%" };
+        { 4, 18204, "", "=q4=Eskhandar's Pelt",           "=ds=#s4#", "", "8.77%" };
+        { 5, 18544, "", "=q4=Doomhide Gauntlets",         "=ds=#s9#", "", "10.05%" };
+        { 6, 19134, "", "=q4=Flayed Doomguard Belt",           "=ds=#s10#", "", "9.75%" };
+        { 7, 18546, "", "=q4=Infernal Headcage",             "=ds=#s1#", "", "9.39%" };
+        { 8, 17112, "", "=q4=Empyrean Demolisher",           "=ds=#h3#", "", "10.84%" };
+        { 9, 17113, "", "=q4=Amberseal Keeper", "=ds=#h2#", "", "10.50%" };
+        { 10, 17111, "", "=q4=Blazefury Medallion", "=ds=#s2#", "", "10.95%" };
+        { 11, 18543, "", "=q4=Ring of Entropy",         "=ds=#s13#", "", "9.82%" };
+        { 16, 18665, "", "=q4=The Eye of Shadow", "=ds=#m3#", "", "29.98%" };
+        { 17, 18608, "", "=q4=Benediction", "=ds=#m4#" };
+        { 18, 18609, "", "=q4=Anathema", "=ds=#m4#" };
 	};
